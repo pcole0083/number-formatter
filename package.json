@@ -4,7 +4,8 @@
   "description": "Test Node module",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter nyan"
+    "test": "mocha --reporter nyan",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,9 @@
   },
   "devDependencies": {
     "chai": "^3.2.0",
+    "coveralls": "^2.11.3",
     "intl": "^1.0.0",
+    "istanbul": "^0.3.17",
     "mocha": "^2.2.5"
   }
 }
