@@ -1,0 +1,27 @@
+{
+  "name": "@zairon87/number-formatter",
+  "version": "0.0.1",
+  "description": "Test Node module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcole0083/number-formatter.git"
+  },
+  "author": "Patrick Coleman <pcole0083@gmail.com> (https://github.com/pcole0083/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pcole0083/number-formatter/issues"
+  },
+  "homepage": "https://github.com/pcole0083/number-formatter#readme",
+  "engines": {
+    "node": ">=2.13.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "intl": "^1.0.0",
+    "mocha": "^2.2.5"
+  }
+}
